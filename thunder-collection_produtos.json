@@ -1,0 +1,79 @@
+{
+    "client": "Thunder Client",
+    "collectionName": "produtos",
+    "dateExported": "2024-05-01T00:02:31.891Z",
+    "version": "1.1",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "2ced8607-ee9c-4ad1-8286-ae18f94b6e9e",
+            "colId": "52b52536-bd28-4ca1-bf4f-ce5340fb0ed9",
+            "containerId": "",
+            "name": "Listar",
+            "url": "localhost:3000/produtos",
+            "method": "GET",
+            "sortNum": 10000,
+            "created": "2024-04-30T23:54:52.615Z",
+            "modified": "2024-04-30T23:55:05.674Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "88c92dc3-1143-4476-848a-32836125d694",
+            "colId": "52b52536-bd28-4ca1-bf4f-ce5340fb0ed9",
+            "containerId": "",
+            "name": "Inserir",
+            "url": "localhost:3000/produtos",
+            "method": "POST",
+            "sortNum": 20000,
+            "created": "2024-04-30T23:55:48.068Z",
+            "modified": "2024-04-30T23:56:42.104Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "9d982627-86e3-4c6e-a0e2-a9edf1afe08f",
+            "colId": "52b52536-bd28-4ca1-bf4f-ce5340fb0ed9",
+            "containerId": "",
+            "name": "Buscar Por Id",
+            "url": "localhost:3000/produtos/1",
+            "method": "GET",
+            "sortNum": 25000,
+            "created": "2024-04-30T23:59:21.339Z",
+            "modified": "2024-05-01T00:00:23.030Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "46e41710-68d8-44b1-8ec9-6f0a2938dcfa",
+            "colId": "52b52536-bd28-4ca1-bf4f-ce5340fb0ed9",
+            "containerId": "",
+            "name": "Atualizar",
+            "url": "localhost:3000/produtos/1",
+            "method": "PUT",
+            "sortNum": 30000,
+            "created": "2024-04-30T23:59:48.267Z",
+            "modified": "2024-05-01T00:00:08.758Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "9e7fe60e-16e9-4c9c-b2f7-88d0274b5537",
+            "colId": "52b52536-bd28-4ca1-bf4f-ce5340fb0ed9",
+            "containerId": "",
+            "name": "Deletar",
+            "url": "localhost:3000/produtos/1",
+            "method": "DELETE",
+            "sortNum": 40000,
+            "created": "2024-05-01T00:00:59.339Z",
+            "modified": "2024-05-01T00:01:17.425Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        }
+    ]
+}
